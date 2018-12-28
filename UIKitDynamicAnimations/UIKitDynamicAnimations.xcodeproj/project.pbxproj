@@ -12,6 +12,7 @@
 		847CC51F21D6C9BB00C011D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847CC51E21D6C9BB00C011D4 /* Assets.xcassets */; };
 		847CC52221D6C9BB00C011D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847CC52021D6C9BB00C011D4 /* LaunchScreen.storyboard */; };
 		847CC52521D6C9BB00C011D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CC52421D6C9BB00C011D4 /* main.m */; };
+		847CC53221D6CD8C00C011D4 /* PaneBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CC53121D6CD8C00C011D4 /* PaneBehavior.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		847CC52121D6C9BB00C011D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847CC52321D6C9BB00C011D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847CC52421D6C9BB00C011D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		847CC53021D6CD6D00C011D4 /* PaneBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaneBehavior.h; sourceTree = "<group>"; };
+		847CC53121D6CD8C00C011D4 /* PaneBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaneBehavior.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +60,8 @@
 		847CC51421D6C9B600C011D4 /* UIKitDynamicAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				847CC51821D6C9B600C011D4 /* ViewController.h */,
-				847CC51921D6C9B600C011D4 /* ViewController.m */,
+				847CC52D21D6CCE300C011D4 /* Controllers */,
+				847CC52C21D6CCC700C011D4 /* PaneBehavior */,
 			);
 			path = UIKitDynamicAnimations;
 			sourceTree = "<group>";
@@ -74,6 +77,24 @@
 				847CC52421D6C9BB00C011D4 /* main.m */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		847CC52C21D6CCC700C011D4 /* PaneBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				847CC53021D6CD6D00C011D4 /* PaneBehavior.h */,
+				847CC53121D6CD8C00C011D4 /* PaneBehavior.m */,
+			);
+			path = PaneBehavior;
+			sourceTree = "<group>";
+		};
+		847CC52D21D6CCE300C011D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				847CC51821D6C9B600C011D4 /* ViewController.h */,
+				847CC51921D6C9B600C011D4 /* ViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				847CC51A21D6C9B600C011D4 /* ViewController.m in Sources */,
+				847CC53221D6CD8C00C011D4 /* PaneBehavior.m in Sources */,
 				847CC52521D6C9BB00C011D4 /* main.m in Sources */,
 				847CC51721D6C9B600C011D4 /* AppDelegate.m in Sources */,
 			);
