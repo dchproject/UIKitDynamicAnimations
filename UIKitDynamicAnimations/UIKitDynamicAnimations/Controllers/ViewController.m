@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MainView.h"
 
 @interface ViewController ()
 
@@ -21,6 +22,12 @@
         
     }
     return self;
+}
+
+- (void)loadView {
+    [super loadView];
+    MainView *mainView = [[MainView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:mainView];
 }
 
 - (void)viewDidLoad {

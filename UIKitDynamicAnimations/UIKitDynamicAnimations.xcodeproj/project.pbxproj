@@ -13,6 +13,8 @@
 		847CC52221D6C9BB00C011D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847CC52021D6C9BB00C011D4 /* LaunchScreen.storyboard */; };
 		847CC52521D6C9BB00C011D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CC52421D6C9BB00C011D4 /* main.m */; };
 		847CC53221D6CD8C00C011D4 /* PaneBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CC53121D6CD8C00C011D4 /* PaneBehavior.m */; };
+		847CC53621D6E90C00C011D4 /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CC53521D6E90C00C011D4 /* DraggableView.m */; };
+		847CC53A21D6EE6D00C011D4 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CC53921D6EE6D00C011D4 /* MainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,10 @@
 		847CC52421D6C9BB00C011D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		847CC53021D6CD6D00C011D4 /* PaneBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaneBehavior.h; sourceTree = "<group>"; };
 		847CC53121D6CD8C00C011D4 /* PaneBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaneBehavior.m; sourceTree = "<group>"; };
+		847CC53421D6E8F600C011D4 /* DraggableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		847CC53521D6E90C00C011D4 /* DraggableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		847CC53821D6EE6000C011D4 /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		847CC53921D6EE6D00C011D4 /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 		847CC51421D6C9B600C011D4 /* UIKitDynamicAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				847CC53721D6EE5000C011D4 /* MainView */,
+				847CC53321D6E8C700C011D4 /* DraggableView */,
 				847CC52D21D6CCE300C011D4 /* Controllers */,
 				847CC52C21D6CCC700C011D4 /* PaneBehavior */,
 			);
@@ -95,6 +103,24 @@
 				847CC51921D6C9B600C011D4 /* ViewController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		847CC53321D6E8C700C011D4 /* DraggableView */ = {
+			isa = PBXGroup;
+			children = (
+				847CC53421D6E8F600C011D4 /* DraggableView.h */,
+				847CC53521D6E90C00C011D4 /* DraggableView.m */,
+			);
+			path = DraggableView;
+			sourceTree = "<group>";
+		};
+		847CC53721D6EE5000C011D4 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				847CC53821D6EE6000C011D4 /* MainView.h */,
+				847CC53921D6EE6D00C011D4 /* MainView.m */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +196,8 @@
 				847CC53221D6CD8C00C011D4 /* PaneBehavior.m in Sources */,
 				847CC52521D6C9BB00C011D4 /* main.m in Sources */,
 				847CC51721D6C9B600C011D4 /* AppDelegate.m in Sources */,
+				847CC53621D6E90C00C011D4 /* DraggableView.m in Sources */,
+				847CC53A21D6EE6D00C011D4 /* MainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
