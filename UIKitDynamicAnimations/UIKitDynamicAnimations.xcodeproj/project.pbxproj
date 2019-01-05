@@ -15,6 +15,7 @@
 		847CC53221D6CD8C00C011D4 /* PaneBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CC53121D6CD8C00C011D4 /* PaneBehavior.m */; };
 		847CC53621D6E90C00C011D4 /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CC53521D6E90C00C011D4 /* DraggableView.m */; };
 		847CC53A21D6EE6D00C011D4 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CC53921D6EE6D00C011D4 /* MainView.m */; };
+		847CC53E21D6FE8E00C011D4 /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CC53D21D6FE8E00C011D4 /* Animator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		847CC53521D6E90C00C011D4 /* DraggableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
 		847CC53821D6EE6000C011D4 /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		847CC53921D6EE6D00C011D4 /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		847CC53C21D6FE7D00C011D4 /* Animator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		847CC53D21D6FE8E00C011D4 /* Animator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 		847CC51421D6C9B600C011D4 /* UIKitDynamicAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				847CC53B21D6FE5700C011D4 /* Animator */,
 				847CC53721D6EE5000C011D4 /* MainView */,
 				847CC53321D6E8C700C011D4 /* DraggableView */,
 				847CC52D21D6CCE300C011D4 /* Controllers */,
@@ -121,6 +125,15 @@
 				847CC53921D6EE6D00C011D4 /* MainView.m */,
 			);
 			path = MainView;
+			sourceTree = "<group>";
+		};
+		847CC53B21D6FE5700C011D4 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				847CC53C21D6FE7D00C011D4 /* Animator.h */,
+				847CC53D21D6FE8E00C011D4 /* Animator.m */,
+			);
+			path = Animator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				847CC51A21D6C9B600C011D4 /* ViewController.m in Sources */,
+				847CC53E21D6FE8E00C011D4 /* Animator.m in Sources */,
 				847CC53221D6CD8C00C011D4 /* PaneBehavior.m in Sources */,
 				847CC52521D6C9BB00C011D4 /* main.m in Sources */,
 				847CC51721D6C9B600C011D4 /* AppDelegate.m in Sources */,

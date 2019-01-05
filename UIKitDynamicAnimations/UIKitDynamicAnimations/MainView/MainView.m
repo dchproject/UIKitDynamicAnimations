@@ -9,6 +9,7 @@
 #import "MainView.h"
 #import "DraggableView.h"
 #import "PaneBehavior.h"
+#import "Animator.h"
 #import <UIKit/UIKit.h>
 
 @interface MainView() <DraggableViewDelegate>
@@ -81,7 +82,6 @@
 {
     [self.animator removeAllBehaviors];
 }
-
 
 #pragma mark Actions
 
